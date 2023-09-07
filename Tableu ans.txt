@@ -1,0 +1,24 @@
+Tableu Que11
+Replace references is a feature in Tableau that 
+allows you to swap one fieldfor another in our workbook. 
+It can be useful when your data source changes or when 
+you want to change the field used in your analysis. 
+To use it, right-click on the field you want to replace and 
+select Replace References. This will update all the references to the old field in our workboo.
+EXample : If we used customer number and sales in analysis 
+ and now if we want to analysis with customer name we can use replce reference and we can change customernumer to customername 
+and correspondinhg  view also get changed.
+  
+
+
+
+
+Que11.2
+
+There are different ways to handle null values for measures in Tableau, such as:
+
+1.Formatting the nulls to hide them or show them as a different value.
+
+2.Filtering out the null values from the view or the data source.
+3.Using a calculated field to replace the null values with a default value or an aggregation.
+We can use ZN formula  it will return 0 for Null values..
